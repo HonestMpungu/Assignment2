@@ -22,6 +22,7 @@ public class Collections  {
         value.add("bacon");
         value.add("jam");
         value.add("potatoes");
+
         System.out.println("Head:"+value.add("Breakfast Items"));
 
         System.out.println("iterating the queue elements:");

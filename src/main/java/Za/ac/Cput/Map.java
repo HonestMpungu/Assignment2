@@ -6,29 +6,31 @@ package Za.ac.Cput;
  * Individual Assignment
  */
 
-import org.testng.annotations.Test;
 
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Iterator;
+import java.util.TreeSet;
 
 public class Map {
 
-    @Test
-    public void test() {
-
-        HashMap<Integer, String> map = new HashMap<>();
-        map.put(1, "Beans 1");
-        map.put(2, "bacon 2");
-        map.put(3, "Eggs 3");
-        map.put(4, "Mushrooms 4 ");
-        map.put(5, "Pork bangers");
-        map.put(6, "Sausages 6 ");
-        map.put(7, "Bread 7");
-
-        System.out.println(map);
+    public static void main(String[] args) {
 
 
-        Iterator<Integer> iterator = map.keySet().iterator();
+        HashMap<Integer, String> mp = new HashMap<>();
+        mp.put(1, "Beans 1");
+        mp.put(2, "bacon 2");
+        mp.put(3, "Eggs 3");
+        mp.put(4, "Mushrooms 4 ");
+        mp.put(5, "Pork bangers");
+        mp.put(6, "Sausages 6 ");
+        mp.put(7, "Bread 7");
+
+
+        System.out.println(mp);
+
+
+        Iterator<Integer> iterator = mp.keySet().iterator();
         if (iterator.hasNext()) {
             do {
                 Integer key = iterator.next();

@@ -10,7 +10,9 @@ package Za.ac.Cput;
 import java.util.*;
 import java.util.ArrayList;
 
-public class List {
+
+
+    public class List {
 
 
     public static void main(String[] args) {
